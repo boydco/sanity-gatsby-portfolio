@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://colinboyd.me/* https://www.colinboyd.me/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://cbport.netlify.com/* https://www.colinboyd.me/:splat 301!
