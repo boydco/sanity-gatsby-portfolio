@@ -19,7 +19,7 @@ function RoleList ({items, title}) {
                     src={imageUrlFor(buildImageObj(item.person.image))
                       .width(100)
                       .height(100)
-                      .fit('clip')
+                      .fit('crop')
                       .url()}
                     alt=''
                   />
