@@ -23,6 +23,7 @@ function Project (props) {
                   .width(1200)
                   .height(Math.floor((9 / 16) * 1400))
                   .fit('clip')
+                  .rect(0, 0, 0, 0)
                   .url()}
                 alt={mainImage.alt}
               />
