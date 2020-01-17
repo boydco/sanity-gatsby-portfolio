@@ -22,7 +22,7 @@ function Project (props) {
                 src={imageUrlFor(buildImageObj(mainImage))
                   .width(1200)
                   .height(Math.floor((9 / 16) * 300))
-                  .fit('clamp')
+                  .fit('fill')
                   .url()}
                 alt={mainImage.alt}
               />
