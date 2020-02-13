@@ -1,6 +1,10 @@
 :root {
   --font-family-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+  --title-font: 'Oswald', sans-serif;
 
+
+  
+  --header-blue: #5c8ecc;
   --color-black: #202123;
   --color-dark-gray: #32373e;
   --color-gray: #697a90;

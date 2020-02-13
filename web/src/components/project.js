@@ -22,8 +22,7 @@ function Project (props) {
                 src={imageUrlFor(buildImageObj(mainImage))
                   .width(1200)
                   .height(Math.floor((9 / 16) * 1400))
-                  .fit('clip')
-                  .rect(0, 0, 0, 0)
+                  .fit('fillmax')
                   .url()}
                 alt={mainImage.alt}
               />

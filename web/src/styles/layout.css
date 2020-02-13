@@ -19,3 +19,11 @@ body > div,
 body > div > div {
   height: 100%;
 }
+
+body {
+  font-family: var(--title-font);
+}
+
+h1 {
+  color: var(--header-blue);
+}
