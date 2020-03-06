@@ -13,7 +13,7 @@ const AboutPage = props => {
       <SEO title='About' />
       <Container>
         <h1 className={responsiveTitle1}>About</h1>
-        About me. 
+        <p><span>Hi, My name is Colin.</span> I like to use technology to solve problems and am always learning new things.</p>
       </Container>
     </Layout>
   )
